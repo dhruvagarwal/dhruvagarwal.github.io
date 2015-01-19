@@ -5,10 +5,9 @@
 #card {
 	width: 250px;
 	height: 150px;
-	border: 4 solid #A0DDE5;
-	border-radius: 10px;
-	background-color: #0A438C;
-	color: #FDE227;
+	border: 1 solid #A0DDE5;
+	background-color: rgba(237, 237, 237, 1);
+	color: #000000;
 	display: inline-table;
 	overflow: auto; 
 	margin: 5 5 5 5;
@@ -16,7 +15,7 @@
 }
 
 .orgName, #viewName {
-	color: #FDE227;
+	color: #000000;
 	font-size: 24;
 	font-weight: bolder;
 	text-align: center;
@@ -26,7 +25,7 @@
 	font-size: 19;
 	font-weight: 8;
 	text-align: left;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 .orgYears {
@@ -40,11 +39,10 @@
 
 #magview {
 	z-index: 100;
-	border: 4 solid #A0DDE5;
+	border: 1 solid #A0DDE5;
 	width: 350px;
-	border-radius: 10px;
-	background-color: #0A438C;
-	color: #FDE227;
+	background-color: rgba(237, 237, 237, 1);
+	color: #000000;
 	display: table-header-group;
 	margin: 5 5 5 5;
 	word-wrap: break-word;
@@ -73,5 +71,7 @@ p {
 }
 
 a {
-	color: #FDE227;
+	color: #000000;
+	text-decoration: none;
+	font-style: italic;
 }
